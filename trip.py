@@ -3,17 +3,17 @@ import google.generativeai as genai
 import os
 from dotenv import load_dotenv
 
-# Load Gemini API Key
+
 load_dotenv()
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
-# Initialize model
+
 model = genai.GenerativeModel("gemini-1.5-flash")
 
-# Streamlit Page Config
+
 st.set_page_config(page_title="VoyageCraft AI", page_icon="🌍", layout="wide")
 
-# Custom CSS
+
 st.markdown("""
     <style>
     body {
@@ -59,7 +59,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# Page title and subtitle
+
 st.markdown("<h1 class='main-title'>🌍 VoyageCraft AI</h1>", unsafe_allow_html=True)
 st.markdown("<p class='subtitle'>Plan your perfect trip with AI – quick, smart & personalized!</p>", unsafe_allow_html=True)
 
