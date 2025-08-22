@@ -5,3 +5,7 @@ faiss-cpu
 langchain
 langchain-openai
 python-dotenv
+streamlit
+google-generativeai
+python-dotenv
+requests
