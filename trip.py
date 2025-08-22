@@ -86,7 +86,7 @@ if st.button("Generate Itinerary"):
             """
             try:
                 response = model.generate_content(prompt)
-                st.success("Here’s your trip plan!")
+                st.success("Here’s your trip plan! ✨")
                 st.markdown(response.text)
             except Exception as e:
                 st.error(f"Error generating itinerary: {e}")
