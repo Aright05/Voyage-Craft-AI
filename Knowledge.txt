@@ -1,0 +1,5 @@
+Python is a popular programming language. It was created by Guido van Rossum and released in 1991.
+FastAPI is a modern web framework for building APIs with Python.
+LangChain enables chaining of LLM calls and external data.
+Vector databases like FAISS or Chroma are used for semantic search.
+RAG stands for Retrieval-Augmented Generation.
